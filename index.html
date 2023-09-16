@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my first app</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link src="style.css">
+</head>
+<body>
+    <style>
+        .box {
+            width: 1300px;
+            height: 250px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            .image-container {
+            display: flex;
+        }
+
+        .image-container img {
+            width: 50%;
+            height: auto;
+        }
+        }
+    </style>
+    <!--Header-->
+    <div data-role="footer" id="Home" style="background-color: #f47984;"> 
+        <center><h1>Hubspot Market Place</h1></center>
+        <form action="/search" >
+            <input type="text" name="Search" placeholder="Search...">
+            <center><button type="submit">Go</button></center>
+          </form>
+    </div><!--Header-->
+    <div data-role="navbar" id="Home">
+        <ul>
+            <li><a href="#">Discovers</a></li>
+            <li><a href="#">Themes</a></li>
+            <li><a href="#">Modules</a></li>
+            <li><a href="#">Templates</a></li>
+        </ul>
+    </div>
+    <div data-role="content " id="Home">
+        <div class="box">
+            <center><button type="button">Enter</button></center>
+            <div class="image-container">
+                <img src="C:\Users\admin\Desktop\MyApp\images.jpeg" alt="First Image">
+                <img src="C:\Users\admin\Desktop\MyApp\10-Smart-Ways-to-Better-Team-Collaboration-1.png" alt="Second Image">
+            </div>
+        </div>
+    </div>
+    <div data-role="footer" id="Home">
+        <center>
+        <ul>
+            <a href="#">Discovers</a><br>
+            <a href="#">Themes</a><br>
+            <a href="#">Modules</a><br>
+            <a href="#">Templates</a><br>
+        </ul>
+    </center>
+    </div>
+
+    
+
+    
+</body>
+</html>
